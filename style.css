@@ -3,6 +3,31 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+input {
+    width: 95%;
+    height: 22px;
+
+    padding: 0.9rem;
+
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+
+}
+
+a {
+    color: #E9E9E9;
+
+    font-size: 0.8rem;
+    
+    margin-top: 9px;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #008EA7;
+
+}
 .container {
     background-color: #E9E9E9;
     margin: auto;
@@ -13,12 +38,11 @@ body {
 }
 
 .header {
-    padding: 2.5rem;
+    padding: 0.9rem;
 }
 
 .flex-container {
     display: flex;
-    background-color: #006B6B;
     justify-content: space-around;
 }
 
@@ -97,6 +121,15 @@ body {
 
 }
 
+.form-register {
+    background-color: #006a6a;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
 @media screen and (max-width: 620px){
     html {
         font-size: 14px;
@@ -113,3 +146,6 @@ body {
         width: 95%;
     }
 }
+    .header {
+        padding: 35px;
+    }
